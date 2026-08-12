@@ -38,7 +38,7 @@ Provisions an Azure Container Registry used as the sandbox environment for GHAS 
    az deployment group create \
      --resource-group rg-ghas-sandbox \
      --template-file infra/acr/main.bicep \
-     --parameters acrName=<your-unique-acr-name> location=eastus sku=Basic
+     --parameters acrName=<your-unique-acr-name> location=swedencentral sku=Basic
    ```
 
 3. After deployment, retrieve the login server:
